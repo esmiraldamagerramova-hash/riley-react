@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1740" height="848" viewBox="0 0 1740 848" fill="none">
+  <defs>
+    <!-- very soft footer background like original (warm beige + clouds) -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="848" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9F5F1"/>
+      <stop offset="1" stop-color="#F9F5F1"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 760) rotate(90) scale(380 900)">
+      <stop stop-color="#D7BEFC" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#D7BEFC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1740" height="848" fill="url(#bg)"/>
+  <rect width="1740" height="848" fill="url(#mist)"/>
+
+  <!-- big fluffy clouds -->
+  <g opacity="0.85" filter="url(#blur)">
+    <path d="M-60 220c0-92 74-166 166-166 62 0 117 32 148 81 15-5 31-7 48-7 78 0 141 63 141 141 0 6 0 11-1 17 81 10 143 79 143 163 0 92-74 166-166 166H90c-91 0-165-74-165-165 0-83 61-153 142-165-1-10-1-20-1-31Z" fill="#FFFFFF"/>
+    <path d="M520 160c0-78 63-141 141-141 52 0 98 27 124 68 12-4 26-6 40-6 66 0 120 54 120 120 0 5 0 10-1 14 69 8 122 67 122 138 0 78-63 141-141 141H660c-78 0-140-63-140-140 0-70 52-129 121-138-1-9-1-17-1-26Z" fill="#FFFFFF"/>
+    <path d="M1060 210c0-96 78-174 174-174 64 0 121 34 152 86 16-5 33-8 52-8 82 0 148 66 148 148 0 6 0 12-1 18 85 10 150 82 150 170 0 96-78 174-174 174h-292c-95 0-172-77-172-172 0-86 64-158 149-170-1-11-2-22-2-34Z" fill="#FFFFFF"/>
+    <path d="M260 620c0-84 68-152 152-152 56 0 105 29 133 73 13-4 28-6 44-6 71 0 128 57 128 128 0 6 0 11-1 16 74 9 131 72 131 148 0 84-68 152-152 152H412c-84 0-152-68-152-152 0-75 55-137 127-148-1-10-2-20-2-31Z" fill="#FFFFFF"/>
+    <path d="M1040 620c0-78 64-142 142-142 52 0 98 27 124 67 12-4 26-6 41-6 66 0 120 54 120 120 0 5 0 10-1 14 69 8 122 67 122 138 0 78-64 142-142 142H1182c-78 0-142-64-142-142 0-70 52-129 121-138-1-8-2-17-2-25Z" fill="#FFFFFF"/>
+  </g>
+
+</svg>
+

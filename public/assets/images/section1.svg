@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1115" viewBox="0 0 860 1115" fill="none">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2E2A42" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Single phone only (no background block) -->
+  <g filter="url(#shadow)">
+    <rect x="250" y="120" width="360" height="860" rx="74" fill="#2E2A42"/>
+    <rect x="270" y="142" width="320" height="816" rx="52" fill="#F9F5F1"/>
+    <rect x="382" y="168" width="96" height="18" rx="9" fill="#2E2A42" opacity="0.32"/>
+
+    <!-- content -->
+    <rect x="295" y="230" width="270" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="315" y="256" width="170" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+    <rect x="315" y="280" width="220" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+
+    <rect x="295" y="340" width="270" height="130" rx="22" fill="#D7BEFC" opacity="0.58"/>
+    <rect x="315" y="370" width="210" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+    <rect x="315" y="394" width="170" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+
+    <rect x="295" y="492" width="270" height="160" rx="22" fill="#FFD6A7" opacity="0.6"/>
+    <rect x="315" y="522" width="220" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+    <rect x="315" y="546" width="190" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+    <rect x="315" y="570" width="140" height="12" rx="6" fill="#2E2A42" opacity="0.18"/>
+
+    <rect x="295" y="674" width="270" height="110" rx="22" fill="#F1F5F9"/>
+    <rect x="315" y="704" width="200" height="12" rx="6" fill="#2E2A42" opacity="0.16"/>
+    <rect x="315" y="728" width="160" height="12" rx="6" fill="#2E2A42" opacity="0.16"/>
+
+    <rect x="295" y="804" width="270" height="130" rx="22" fill="#FF93AB" opacity="0.45"/>
+    <rect x="315" y="836" width="220" height="12" rx="6" fill="#2E2A42" opacity="0.16"/>
+    <rect x="315" y="860" width="170" height="12" rx="6" fill="#2E2A42" opacity="0.16"/>
+  </g>
+</svg>
+

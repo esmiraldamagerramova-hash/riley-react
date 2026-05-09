@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  width: max-content;
+  animation: marquee 18s linear infinite;
+  padding-inline: 2rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-35%);
+  }
+}
+
